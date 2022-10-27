@@ -1,0 +1,201 @@
+{
+
+    "data": [
+      {
+        "Title": "Search",
+        "Paths": [
+          {
+            "Pathname": "",
+            "Pathtitle":"All Subjects with question videos and exercise count",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                
+              ]
+          },
+          {
+            "Pathname": "",
+            "Pathtitle":"topic wise question videos and exercise count with direct subject",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "program", "value": "" },
+                { "name": "subjectid", "value": "" }                
+              ]
+          },
+          {
+            "Pathname": "Subjecwise",
+            "Pathtitle":"topic wise question videos and exercise count with search subject",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "program", "value": "" },
+                { "name": "subjectid", "value": "" },
+                { "name": "searchtopic", "value": "" }
+              ]
+          },
+          {
+            "Pathname": "subjects",
+            "Pathtitle":"All Subjects",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "programid", "value": "" }
+              ]
+          }
+
+
+        ]
+
+      },
+      {
+        "Title": "Exercise",
+        "Paths": [
+          {
+            "Pathname": "Subjecwise",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "subjectid", "value": "" },
+                { "name": "topicname", "value": "" }
+              ]
+          },
+          {
+            "Pathname": "Tagwise",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "tagName", "value": "" }
+              ]
+
+          }
+
+        ]
+
+      },
+      {
+        "Title": "Videos",
+        "Paths": [          
+          {
+            "Pathname": "",
+            "Pathtitle":"All Videos List",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+
+              ]
+          },
+          {
+            "Pathname": "Subjecwise",
+            "Pathtitle":"All Videos with subject",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "subjectid", "value": "" }
+              ]
+          },
+          {
+            "Pathname": "topicvideos",
+            "Pathtitle":"All Videos with subject and topicname",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+                { "name": "subjectid", "value": "" },
+                { "name": "topicname", "value": "" }
+              ]
+          }
+
+
+        ]
+
+      },
+      {
+        "Title": "Programs",
+        "Paths": [
+          {
+            "Pathname": "",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+               
+              ]
+          },
+          {
+            "Pathname": "/",
+            "Type": "GET",
+            "color":"#0085a1",
+            "apiirl": 1,
+            "Parameter":
+              [
+              { "name": "typeval", "value": "" },
+              { "name": "program", "value": "" }
+              ]
+          }
+
+
+        ]
+
+      },
+      {
+        "Title": "practicetest",
+        "Paths": [
+          {
+            "Pathname": "practicetest",
+            "Pathtitle":"All Subjects with question videos and exercise count",
+            "Type": "POST",
+            "color":"#2d9625",
+            "apiirl": 1,
+            "Parameter":
+              [
+                {
+                  "ExamType": "Chapter Type",
+                  "Subjects": [1],
+                  "Subjectname": "MATHEMATICS",
+                   "TopicsArr": [
+                          {
+                              "Topicname": "TIME & WORK",
+                              "Topicid": 511
+                          }
+                      ],
+                  "Topics": [269,222],
+                  "Level":2,
+                  "NoOfQueSub":10,
+                  "ExamTime": 10,
+                  "examstatus": "started",
+                  "Questions": [],
+                  "suc":"553322",
+                  "branch": "ABHYAS",
+                  "section":"Seaction",
+                  "name": "VENAKTESH"
+              }
+              ],
+            "PostData":""
+          }
+        ]
+
+      }
+       
+
+
+    ]
+  }
