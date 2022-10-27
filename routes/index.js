@@ -8,6 +8,4 @@ router.get('/status',  (req, res) => {
   res.send('Server is running');
 })
 
-
-
 module.exports = router
